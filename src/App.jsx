@@ -1,10 +1,11 @@
-
 import "./App.css";
+import Blogs from "./Blogs/Blogs";
+import Navbar from "./Navbar/Navbar";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello World</h1>
-      <button className="btn btn-primary">Primary</button>
+      <Navbar />
+      <Blogs />
     </>
   );
 }
